@@ -78,8 +78,8 @@ Follow the [Windows install instructions](https://github.com/neovim/neovim/wiki/
 
 *Note:* Cloning this repo probably isn't necessary. You only need to grab the `config/nvim/init.vim` and `config/nvim/plugins.vim` files from this repo and put them in the correct locations on your computer.
 
-1. Copy `config\nvim\init.vim` to `~\AppData\Local\nvim\init.vim ` on your computer.
-2. Copy `jarvis\config\nvim\init.vim` to `~\AppData\Local\nvim\plugins.vim` on your computer.
+1. Copy `jarvis\config\nvim\init.vim` to `~\AppData\Local\nvim\init.vim ` on your computer.
+2. Copy `jarvis\config\nvim\plugins.vim` to `~\AppData\Local\nvim\plugins.vim` on your computer.
 3. Open `~\AppData\Local\nvim\init.vim` and replace every instance of `~/.config/nvim/` with `~\AppData\Local\nvim\`
 4. Open Neovim (`C:\tools\neovim\Neovim\bin\nvim-qt.exe`) and run `:PlugInstall` and `:UpdateRemotePlugins`. You might need to close and re-open Neovim.
 5. Install the vim linter [vint](https://github.com/Kuniwak/vint) with `pip install vim-vint`
